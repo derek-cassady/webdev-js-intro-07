@@ -41,15 +41,15 @@
 
 // Function with default parameter
 
-let user = "Derek"
+// let user = "Derek"
 
-function greet(name = "Guest") {
-    console.log("Hello, " + name + "!"); 
-    // Log a greeting
-}
+// function greet(name = "Guest") {
+//     console.log("Hello, " + name + "!"); 
+//     // Log a greeting
+// }
 
-// Call function without name
-greet(); //Hello, Guest!
+// // Call function without name
+// greet(); //Hello, Guest!
 
-greet(user) //Hello, Derek!
+// greet(user) //Hello, Derek!
 
