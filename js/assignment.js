@@ -24,6 +24,12 @@ function checkIfEven(num3) {
     // Returns true if num is divisible by 2
 }
 
+// Function to get fourth element of array (0,1,2,3)
+function getTheFourthElement(array) {
+    return array[3]; 
+    // Returns element at index 3
+}
+
 // Function to render
 function render() {
     // Calculate and display the remainder
@@ -31,6 +37,10 @@ function render() {
 
     // Check if num3 is even and display result
     checkIfEvenElement.textContent = checkIfEven(num3);
+
+    // Get fourth element in lostNumbers and display
+    lostNumbersElement.textContent = getTheFourthElement(lostNumbers);
+
 }
 
 
